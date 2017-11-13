@@ -1,0 +1,413 @@
+@charset "UFT-8";
+
+/* fundo da página*/
+html 
+{
+    background-color: #272727;
+}
+
+/* efeito title article*/
+.nome-aleatorio {
+    font-weight: normal;
+    text-transform: capitalize;
+    text-align: left;
+    color: #13ff29;
+    border: 1px solid #13ff29;
+    background-color: black;
+    margin: 5px 22px 0px 27px;
+                }
+
+/* efeito title aside*/
+.nome-biografia {
+    font-weight: normal;
+    text-transform: capitalize;
+    text-align: left;
+    color: #13ff29;
+    border: 1px solid #13ff29;
+    background-color: black;
+    margin: 5px 18px 0px 20px;
+                }
+/* centralizando imagem do aside*/
+.img-aside {
+    margin: 0px 0px 0px 0px;
+    padding: 5px;
+    padding-top: 15px;
+}
+
+/*espaçamento do header*/
+header {
+    margin: 0px 26px 0px 26px;
+    background-color: black;
+    text-decoration: none;
+    padding: 0px 0px 0px 0px;
+}
+
+/*espaçamento e posicionamento da imagem*/
+.imagem-header {
+    margin: 0px 0px 0px 0px;
+    padding: 10px;
+    text-align: center;
+}
+
+/*modo para os textos, tamanho, tipografia, cores*/
+p {
+    text-indent: 1.9em;
+    font-family: Arial, Verdana, sans-serif;
+    font-size: 1.1em;
+    text-align: justify;
+    padding: 25px;
+    color: black;
+}
+
+/*espaçamento e margem do texto*/
+p{
+    margin: 0px 20px;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+/*configuração do menu*/
+.menu {
+    margin-top: -21px;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 1.1em;
+    width: 972px;
+    background-color: #13ff29;
+    margin-left: 26px;
+    font-weight: bold;
+}
+/* espaçamento do backgroud do menu*/
+.menu ul {
+    padding: 10px;
+}
+/* opção de links e espaçamento */
+.menu ul li {
+    position: relative;
+    display: inline-block;
+    margin: 0px 15px 0px 15px;
+}
+
+/* configuração dos link do menu */
+.menu li a {
+    color: black;
+    text-decoration: none;
+    padding: 5px 15px 5px 15px;
+    display: block;
+}
+/*efeitos hover de visualização dos menu*/
+.menu li a:hover {
+    color: black;
+    box-shadow: 0px 3px 100px 5px black;
+    text-shadow: 0px 0px 5px 1px green;
+    background-color: #13ff29;
+    margin: 0px 0px 0px 0px;
+}
+
+/*sublinks do menu*/
+.menu li ul {
+    position: absolute;
+    top: 31px;
+    left: 0px;
+    background-color: #13ff29;
+    display: none;
+    text-align: center;
+}
+
+/*travando os sublink em vertical*/
+.menu li:hover ul,
+.menu li.hover ul {
+    display: block;
+}
+
+/*backgroud dos sublink*/
+.menu li ul li {
+    margin: 0px -10px 0px -10px;
+    display: block;
+    width: 210px;
+}
+
+/*configuração do corpo*/
+body {
+    background-color: #535353;
+    font-size-adjust: 100%;
+    width: 1024px;
+    margin: 0px auto 0px auto; /* Zera o espaço no topo e base (0px) e "auto" para esquerda a direita */
+}
+
+/*configuração da img do section*/
+section {
+    margin-top: -12px;
+    background-color: #535353;
+    width: 1024px;
+    float: left;
+    padding-bottom: 15px;
+}
+
+/* background, tamanho, posição do article*/
+article {
+    background-color: #535353;
+    width: 100%;
+    float: left;
+    padding-bottom: 10px;
+    margin: 0px 0px 0px 26px;
+}
+
+/* local e posição da imagem*/
+.img-home{
+    float: right;
+    margin: 0px 0px -35px -35px;
+}
+
+/*local e posição da imagem*/
+.img-feit{
+    float: left;
+    margin: 0px -15px -31px -17px;
+}
+
+article {
+    width: 670px;
+}
+
+/* configuração da biografia*/
+.aside-bio {
+    font-size: 0.9em;
+    border: 1px solid black;
+    box-shadow: 0px 1px 1px 2px #333;
+    background-color: #535353;
+    width: 27%;
+    float: right;
+    padding-bottom: 10px;
+    margin: 0px 26px 0px 0px;
+    background-color: rgba(39, 39, 39, 0.56);
+      }
+
+.nome-antigos {
+    font-weight: normal;
+    text-transform: capitalize;
+    text-align: center;
+    color: #13ff29;
+    border: 1px solid #13ff29;
+    background-color: black;
+    width: 300px;
+    margin-left: 27px;
+                }
+
+/* posição texto da tabela*/
+table, tr, td {
+    text-align: right;
+}
+
+.imagem-section {
+    margin: 10px 0px 0px 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+/*config do footer*/
+footer {
+    width: 100%;
+    padding-bottom: 0px;
+    background-color: black;
+    margin: 3px 3px 3px 0px;
+    clear: both;
+}
+.footer-copyright {
+    font-size: 20px;
+    text-align: center;
+    color: #13ff29;
+}
+
+/* CSS WARCRAFT */
+
+.article-warcraft {
+    padding-top: 10px;
+    margin: -17px 10px 0px 0px;
+    width: 1024px;
+    
+}
+
+.nome-warcraft {
+    font-weight: normal;
+    text-transform: capitalize;
+    text-align: left;
+    color: #13ff29;
+    border: 1px solid #13ff29;
+    background-color: black;
+    width: 300px;
+    margin-left: 380px;
+                }
+.img-war1{
+    float: left;
+    margin: -10px 0px -35px -20px;
+}
+
+.text-war2{
+    background-color: #393939;
+}
+
+.img-war2{
+    float: right;
+    margin: 0px -5px -35px -20px;
+}
+.img-war3{
+    float: left;
+    margin: -5px 0px -35px -20px;
+}
+
+.text-war4{
+    background-color: #393939;
+}
+
+.img-war4{
+    float: right;
+    margin: 0px -5px -35px -20px;
+}
+
+    /* CSS BURNING */
+.article-bc {
+    margin: -17px 0px 0px -50px;
+    width: 790px;
+}
+
+.aside-bc {
+    width: 25%;
+    float: left;
+    margin: 0px 0px 20px 27px;
+      }
+.img-aside-bc {
+    float: right;
+    margin-right: 20px;
+    margin-top: 90px;
+}
+
+.img-bc1 {
+    float: right;
+    margin-left: -50px;
+}
+
+.body-bc{
+    background-color: #535353;
+    font-size-adjust: 100%;
+    width: 1024px;
+    height: 1000px;
+    margin: 0px auto 0px auto; /* Zera o espaço no topo e base (0px) e "auto" para esquerda a direita */
+}
+
+.nome-bc {
+    font-weight: normal;
+    text-transform: capitalize;
+    text-align: left;
+    color: #13ff29;
+    border: 1px solid #13ff29;
+    background-color: black;
+    width: 300px;
+    margin-left: 125px;
+    margin-top: 30px;
+                }
+
+    /* CSS LEGION */
+.article-lg {
+    margin: -17px 0px 0px 0px;
+    width: 1024px;
+}
+.body-lg{
+    background-color: #535353;
+    font-size-adjust: 100%;
+    width: 1024px;
+    height: 1000px;
+    margin: 0px auto 0px auto; /* Zera o espaço no topo e base (0px) e "auto" para esquerda a direita */
+}
+
+.nome-legion {
+    font-weight: normal;
+    text-transform: capitalize;
+    text-align: left;
+    color: #13ff29;
+    border: 1px solid #13ff29;
+    background-color: black;
+    width: 300px;
+    margin-left: 380px;
+    margin-top: 30px;
+                }
+
+#legion2 {
+ padding: 10px 0px 0px 20px;
+    
+}
+
+#legion3 {
+ padding: 10px 0px 0px 10px;
+}
+
+#legion4 {
+    padding: 10px 0px 0px 10px;
+}
+
+.nome-legion2{
+    font-weight: normal;
+    text-transform: capitalize;
+    text-align: left;
+    color: #13ff29;
+    border: 1px solid #13ff29;
+    background-color: black;
+    width: 300px;
+    margin-left: 50px;
+}
+
+/* CSS CONTATO */
+
+
+.article-contato {
+    background-color: #535353;
+    width: 500px;
+    float: left;
+    padding-top: 15px;
+    margin: -17px 0px 0px 0px;
+    position: absolute;
+}
+
+.nome-contato {
+    font-weight: normal;
+    text-transform: capitalize;
+    text-align: left;
+    color: #13ff29;
+    border: 1px solid #13ff29;
+    background-color: black;
+    width: 300px;
+    margin-left: 100px;
+                }
+
+.aside-contato {
+    width: 50%;
+    float: right;
+    padding: 25px 25px 352px 30px;
+    margin: -17px 0px 0px 0px;
+    background: #535353;
+}
+
+.list-contato {
+    list-style-type: circle;
+    padding-left: 80px;
+    margin-top: -15px;
+}
+
+
+#map1{
+    margin: 10px 20px;
+    padding-bottom: 10px;
+}
+
+#txt-map {
+    margin-right: -25px;
+}
+
+.inp-name {
+    margin-top: -45px;
+}
+.inp-sexo {
+    margin-top: -45px;
+}
+.inp-msg {
+    margin-top: -45px;
+}
